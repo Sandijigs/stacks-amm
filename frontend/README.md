@@ -1,6 +1,27 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Features
+
+- **Automated Market Maker (AMM)**: Full-range constant product AMM on Stacks
+- **Token Swaps**: Swap between any SIP-010 tokens
+- **Liquidity Pools**: Create and manage liquidity pools
+- **Add/Remove Liquidity**: Provide liquidity and earn fees
+- **WalletConnect Support**: Connect mobile wallets securely using WalletConnect protocol
+- **Dual Wallet Integration**: Connect via Stacks Connect or WalletConnect
+
 ## Getting Started
+
+### Prerequisites
+
+Create a `.env.local` file in the frontend directory with your WalletConnect project ID:
+
+```bash
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here
+```
+
+You can get a project ID by registering at [WalletConnect Cloud](https://cloud.walletconnect.com/).
+
+### Run Development Server
 
 First, run the development server:
 
