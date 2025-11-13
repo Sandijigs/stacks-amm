@@ -3,7 +3,7 @@ import "./globals.css";
 
 import { Inter } from "next/font/google";
 import { Navbar } from "@/components/navbar";
-import { WalletConnectProvider } from "@/contexts/WalletConnectContext";
+import { Providers } from "@/components/providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,12 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <WalletConnectProvider>
+        <Providers>
           <div className="flex min-h-screen flex-col gap-8 w-full">
             <Navbar />
             {children}
           </div>
-        </WalletConnectProvider>
+        </Providers>
       </body>
     </html>
   );
