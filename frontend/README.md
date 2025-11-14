@@ -6,8 +6,27 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - **Token Swaps**: Swap between any SIP-010 tokens
 - **Liquidity Pools**: Create and manage liquidity pools
 - **Add/Remove Liquidity**: Provide liquidity and earn fees
-- **WalletConnect Support**: Connect mobile wallets securely using WalletConnect protocol
-- **Dual Wallet Integration**: Connect via Stacks Connect or WalletConnect
+- **WalletConnect Support**: Connect mobile wallets securely using WalletConnect protocol (Project ID: 6b87a3c69cbd8b52055d7aef763148d6)
+- **Dual Wallet Integration**: Connect via Stacks Connect (desktop) or WalletConnect (mobile)
+
+## WalletConnect Integration
+
+This AMM frontend is built with **WalletConnect SDK v2** for comprehensive mobile wallet support:
+
+- **Mobile-First Trading**: Trade tokens directly from your mobile wallet
+- **Secure Connections**: Industry-standard encryption for all wallet communications
+- **QR Code Pairing**: Simple QR code scanning for instant wallet connection
+- **Session Persistence**: Stays connected across browser sessions
+- **Universal Wallet Support**: Compatible with Xverse, Leather, and all Stacks WalletConnect-enabled wallets
+
+### Connecting Your Mobile Wallet
+
+1. Open the app and click "Connect Wallet"
+2. Choose "Connect with WalletConnect"
+3. Open your mobile wallet app (Xverse, Leather, etc.)
+4. Scan the displayed QR code
+5. Approve the connection
+6. Start swapping and providing liquidity!
 
 ## Getting Started
 
